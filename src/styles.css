@@ -18,6 +18,7 @@ text-align: center;
 .img-responsive {
   width: 100%;
   display: block;
+
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
@@ -249,9 +250,7 @@ footer a {
     padding: 30px;
   }
 
-  .card-header img {
-    display: none;
-  }
+  
 
   .embed {
     aspect-ratio: 16 /9;
