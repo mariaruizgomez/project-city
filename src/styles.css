@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #272044;
+  background: #eaded4;
 }
 
 .container {
@@ -9,7 +9,7 @@ body {
 }
 
 .text-center {
-text-align: center;
+  text-align: center;
 }
 .grid {
   display: grid;
@@ -18,7 +18,6 @@ text-align: center;
 .img-responsive {
   width: 100%;
   display: block;
-
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
@@ -30,49 +29,42 @@ text-align: center;
   grid-template-columns: 1fr 2fr 2fr;
 }
 
-.card-header.grid{
-grid-gap: 0;
-
+.card-header.grid {
+  grid-gap: 0;
 }
 .embed {
-    width: 100%;
-    aspect-ratio: 1 /1;
-   
+  width: 100%;
+  aspect-ratio: 1 /1;
 }
 
 .instagram-embeds {
-margin: 30px 0;
-
-
-
+  margin: 30px 0;
 }
 .card {
-    background: white;
-    margin: 30px 0;
+  background: white;
+  margin: 30px 0;
 }
 
 .card-body {
-    padding: 30px;
+  padding: 30px;
 }
 
 .card-footer {
-    padding: 0 30px 30px;
+  padding: 0 30px 30px;
 }
 
-
-
 .btn {
-    display: block;
-    color: white;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    padding: 16px;
-    background-color: #462cb3;
-    text-decoration: none;
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #004F32;
+  text-decoration: none;
 }
 
 section {
@@ -86,7 +78,7 @@ section.secondary {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../images/catedral-almudena-madrid.jpg_1224728085.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -178,13 +170,13 @@ main p {
 }
 
 .card h4 {
- font-weight: 700;
+  font-weight: 700;
   font-size: 24px;
   line-height: 1.5;
   color: #272044;
 }
 .card h5 {
- font-weight: 700;
+  font-weight: 700;
   font-size: 13px;
   line-height: 1.5;
   color: #272044;
@@ -193,8 +185,8 @@ main p {
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rgba(39, 32, 68, 0.7),
+      rgba(39, 32, 68, 0.5)
     ),
     url("../images/cibeles.jpeg");
   background-repeat: no-repeat;
@@ -250,10 +242,7 @@ footer a {
     padding: 30px;
   }
 
-  
-
   .embed {
     aspect-ratio: 16 /9;
   }
-  
 }
